@@ -1,0 +1,47 @@
+/* table stylings */
+table{
+    width: 70%;
+}
+thead .headRow th{
+    text-align: left;
+}
+th,td{
+    padding: 7.5px 0;
+}
+.col-1{
+    width: 40%;
+}
+/* user img, name, email styling */
+.userDetailsWrapper{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: start;
+}
+/* Profile img styling */
+.profileImg{
+    width: 40px;
+    grid-row: 1 / 3;
+    border-radius: 92px;
+    margin-right: 12px;
+}
+.userName{
+    font-size: 14px;
+    font-weight: 700;
+    opacity: 0.8;
+}
+.userEmail{
+    font-size: 14px;
+    opacity: 0.8;
+}
+/* select menu style */
+.selectMenu{
+    outline: none;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 2px;
+    padding: 5px;
+}
+/* footer style */
+.paginationWrapper{
+    padding-top: 25px;
+    text-align: center;
+}
